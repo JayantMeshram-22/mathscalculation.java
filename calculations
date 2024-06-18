@@ -1,0 +1,36 @@
+package basic;
+
+class Operation {
+	void addition(int a, int b, int c) {
+		System.out.println("Addition of 3 number: " + (a + b + c));
+	}
+
+	int divide(int a, int b) {
+		return a / b;
+
+	}
+
+	int multiply(int a, int b) {
+		return a * b;
+	}
+
+	int subtract(int a, int b) {
+		return a - b;
+	}
+}
+
+public class JavaMethd {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Operation o = new Operation();
+		o.addition(22, 7, 55);
+		o.divide(29, 5);
+		o.multiply(12, 5);
+		o.subtract(17, 7);
+		System.out.println("Multiplication of 2 numbers " + o.multiply(12, 4));
+		System.out.println("Division of 2 numbers " + o.divide(30, 6));
+		System.out.println("Subtraction of 2 numbers " + o.subtract(16, 5)); 
+	}
+
+}
